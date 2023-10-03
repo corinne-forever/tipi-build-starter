@@ -1,3 +1,17 @@
 {
-    "terminal.integrated.scrollback": 1000000000
+    "terminal.integrated.scrollback": 1000000000,
+    "files.associations": {
+        "json": "jsonl",
+        "type_traits": "cpp",
+        "optional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "variant": "cpp"
+    }
 }
