@@ -7,10 +7,6 @@
 	},
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
-		"ghcr.io/devcontainers/features/git:1": {
-			"version": "latest",
-			"ppa": "false"
-		},
 		"ghcr.io/devcontainers-contrib/features/fish-apt-get:1": {},
 		"ghcr.io/stuartleeks/dev-container-features/shell-history:0": {}
 	},
