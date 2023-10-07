@@ -1,3 +1,11 @@
 {
-    "platform" : ["Boost::system"]
+    "google/googletest": {
+        "u": true,
+        "packages": ["GTest"],
+        "targets": ["GTest::gtest", "GTest::gtest_main"],
+        "opts": null
+    },
+    "platform" : [
+        "Boost::system"
+    ]
 }
