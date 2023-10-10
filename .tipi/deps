@@ -2,10 +2,18 @@
     "google/googletest": {
         "u": true,
         "packages": ["GTest"],
-        "targets": ["GTest::gtest", "GTest::gtest_main"],
-        "opts": null
+        "targets": ["GTest::gtest", "GTest::gtest_main"]
     },
-    "platform" : [
-        "Boost::system"
-    ]
+    "boostorg/boost": {
+        "@": "boost-1.80.0",
+        "packages": [
+            "boost_system",
+            "boost_filesystem"
+        ],
+        "targets": [
+            "Boost::system",
+            "Boost::filesystem"
+        ],
+        "u": true
+    }
 }
