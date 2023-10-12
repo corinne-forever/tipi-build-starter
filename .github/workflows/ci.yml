@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build: 
-    name: build-wasm
+    name: linux-cxx17
     runs-on: ubuntu-latest
     container: tipibuild/tipi-ubuntu
     steps:
@@ -13,4 +13,4 @@ jobs:
       - name: tipi builds project 
         run: |
           mkdir -p ~/.tipi
-          tipi . --dont-upgrade --verbose --test all 
+          tipi . -t linux-cxx17 --dont-upgrade --verbose --test all 
