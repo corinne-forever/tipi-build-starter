@@ -7,14 +7,10 @@
     "boostorg/boost": {
         "@": "boost-1.83.0",
         "packages": [
-            "boost_filesystem",
-            "boost_program_options",
-            "boost_uuid"
+            "boost_program_options"
         ],
         "targets": [
-            "Boost::filesystem",
-            "Boost::program_options",
-            "Boost::uuid"
+            "Boost::program_options"
         ],
         "u": true
 
