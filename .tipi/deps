@@ -2,8 +2,7 @@
     "google/googletest": {
         "u": true,
         "packages": ["GTest"],
-        "targets": ["GTest::gtest", "GTest::gtest_main"],
-        "opts": null
+        "targets": ["GTest::gtest", "GTest::gtest_main"]
     },
     "boostorg/boost": {
         "@": "boost-1.83.0",
