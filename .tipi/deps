@@ -1,8 +1,12 @@
 {
     "google/googletest": {
         "u": true,
-        "packages": ["GTest"],
-        "targets": ["GTest::gtest_main"]
+        "packages": [
+            "GTest"
+        ],
+        "targets": [
+            "GTest::gtest_main"
+        ]
     },
     "boostorg/boost": {
         "@": "boost-1.83.0",
@@ -13,6 +17,5 @@
             "Boost::program_options"
         ],
         "u": true
-
-      }
+    }
 }
