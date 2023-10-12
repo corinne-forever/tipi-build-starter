@@ -9,4 +9,6 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     python3-venv \
     vim
 
+# RUN pip3 install gdbgui
+
 USER tipi
